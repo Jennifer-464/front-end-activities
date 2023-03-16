@@ -1,4 +1,5 @@
 // very basic beginner challenge
+// data types
 
 var myBoolean = true;
 var myString = "hello world";
