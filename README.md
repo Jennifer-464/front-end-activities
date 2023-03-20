@@ -13,6 +13,8 @@ My name is Jennifer and I have basic to intermediate knowledge of HTML/CSS/JS. R
 
 I currently work at a non-profit organization teaching the basics of HTML/CSS/JS every Fall to youth, as well as web development concepts throughout the year. This has helped me get deeper understanding, but I am looking to expand my knoweldge and take on more challenging projects. My goal is to become an experienced Front-End Developer to pursue a career in this field :white_heart: :raised_hands:
 
-Feel free to reach out with suggestions or resources through my email: jenniferlopezh0@gmail.com
+----
 
-Checkout my [CodeWars](https://www.codewars.com/users/Jennifer-464) portfolio
+Check out my [CodeWars](https://www.codewars.com/users/Jennifer-464) portfolio
+
+Feel free to reach out with suggestions or resources through my email: jenniferlopezh0@gmail.com
