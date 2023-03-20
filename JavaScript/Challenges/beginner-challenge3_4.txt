@@ -1,0 +1,13 @@
+Doing 25 beginner JS practice problems from:
+
+https://www.codewars.com/users/zachgoll/authored_collections 
+
+Named: Lesson 5 Practice Challenges #fullstackroadmap
+
+Covered:
+- split(), slice() & join()
+- repeat()
+- forEach()
+- map()
+- Math.floor() & Math.ceil()
+- Number()
