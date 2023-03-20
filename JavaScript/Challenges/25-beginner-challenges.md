@@ -11,3 +11,8 @@ Covered:
 - map()
 - Math.floor() & Math.ceil()
 - Number()
+
+New built-in Array methods covered in YT video:
+- [pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+- [join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+- [includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
