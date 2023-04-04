@@ -20,8 +20,8 @@ console.log(arr);
 console.log();
 
 
-// forEach - mutates current array values, use if not changing data of arr
-// map - creates a whole new Array, use if altering data
+// forEach - mutates current array values, doesn't return anything
+// map - creates a whole new Array, leaves orignial values alone
 
 
 
