@@ -1,3 +1,9 @@
+/**
+ * Visit https://lodash.com/
+ * To check out their https://lodash.com/docs/4.17.15
+ * A library with a lot more methods 
+ */
+
 /*** 
  * 
  * Strings
@@ -36,6 +42,10 @@ const externalData = [
         title: '   How do loops work in JavaScript?     ',
         author: ' Zach'
     },
+    {
+        title: '   Intro to C++ ',
+        author: ' not Zach'
+    }
 ]
 externalData.forEach(object => {
     object.title = object.title.trim();
@@ -73,5 +83,22 @@ console.log(months);
 //      Both return index of first element, if not found, return -1;
 //      findIndex focuses more on satisfying testing FUNCTION (callback)
 //      indexOf focuses more on primitive element being found
+console.log(months.indexOf('Feb'));
+
+const notZach = externalData.findIndex(object => {
+    return object.author !== 'Zach';
+})
+console.log(notZach);
+
+const newExternalData = externalData.map(object => {
+    object.author = 'Sam';
+    return object;
+})
+console.log(newExternalData);
+
 
 // includes()   --> return t / f if value exists in array
+// includes(searchElement, fromIndex >=)   -1 starts at end
+console.log(months.includes('July'));
+console.log(months.includes('jan'));
+console.log(months.includes('Jan'));

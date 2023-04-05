@@ -55,7 +55,7 @@ console.log(even);
 
 
 
-// Reduce - adds all arr values
+// Reduce - adds all arr values - not mutation on original array
 let values1to4 = [1, 2, 3, 4];
 var total = values1to4.reduce((acc, val) => acc + val);
 console.log(total); // 10
