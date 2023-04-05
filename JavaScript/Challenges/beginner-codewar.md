@@ -1,8 +1,10 @@
 # 25 Beginner JavaScript Practice Problems
 
-My CodeWars portfolio can be found [here](https://github.com/Jennifer-464/front-end-activities)
+My CodeWars portfolio can be found [here](https://www.codewars.com/users/Jennifer-464)
 
-I took inspiration from [Zachgoll](https://www.codewars.com/users/zachgoll/authored_collections) and completed "Lesson 5 Practice Challenges #fullstackroadmap" under Collections
+I took inspiration from [Zachgoll](https://www.codewars.com/users/zachgoll/authored_collections) and completed "Lesson 5 Practice Challenges #fullstackroadmap"
+
+From Multiply to Total amount of points
 
 Covered:
 - split(), slice() & join()
