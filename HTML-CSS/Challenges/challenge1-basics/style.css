@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(13, 29, 68);
+}
+
+.about-me-section {
+    background-color: rgb(19, 89, 119);
+    border: 5px solid #3f3f3f;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1, p, ul {
+    color: #f3f3f3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: orange;
+}
+
+img, video {
+    border-radius: 5px;
+}
