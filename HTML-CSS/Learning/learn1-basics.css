@@ -1,0 +1,23 @@
+.blue-outlined {
+    width: 300px;
+    padding: 10px;
+    border: 3px solid rgb(73, 163, 227);
+    background-color: rgb(252, 252, 185);
+    text-align: center;
+}
+
+.red-button {
+    background-color: rgb(181, 50, 50);
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    color: rgb(243, 243, 243);
+    font-size: 16px;
+    box-shadow: inset -2px -2px 3px #3f3f3f; /* x, y, blur, spread, color*/
+    /* x - positive = left - negative = right */
+    /* y - positive = top  - negative = bottom */
+}
+
+.red-button:hover {
+    background-color: rgb(50, 144, 181);
+}

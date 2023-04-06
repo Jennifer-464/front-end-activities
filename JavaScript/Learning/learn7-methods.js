@@ -63,7 +63,7 @@ console.log(externalData);
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
  * 
  * ***/
-// forEach() / map() / filter() / reduce() <-- check learn5-callback.js & 25-beginner-challenges.md
+// forEach() / map() / filter() / reduce() <-- check codewar-challenges.md
 
 // helpful for linked lists :) vvv
 // push() / pop()       --> adds & removes last element of array
@@ -99,6 +99,7 @@ console.log(newExternalData);
 
 // includes()   --> return t / f if value exists in array
 // includes(searchElement, fromIndex >=)   -1 starts at end
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
 console.log(months.includes('July'));
 console.log(months.includes('jan'));
 console.log(months.includes('Jan'));
