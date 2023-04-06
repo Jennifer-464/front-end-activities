@@ -1,14 +1,6 @@
-# 10 Beginner / Intermediate JavaScript Practice Problems
+# Codewars JavaScript Challenges
 
-My CodeWars portfolio can be found [here](https://www.codewars.com/users/Jennifer-464)
+Created a basic JSON image library and used jQuery with DOM manipulation to display the images
 
-I took inspiration from [Zachgoll](https://www.codewars.com/users/zachgoll/authored_collections) and completed "Lesson 6 Practice Challenges #fullstackroadmap"
-
-From List Filtering to Is the date today
-
-Covered:
-- for...in & hasOwnProperty were due to clicking the wrong challenge
-- [for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
-- [hasOwnProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
-- ommited "retired" challenges as I could not submit
-- [Array.from()](https://codingbeautydev.com/blog/javascript-split-number-into-array/)
+### Website Walkthrough GIF
+<img src="http://g.recordit.co/ITUPENdHwR.gif" width=250><br>

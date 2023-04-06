@@ -8,6 +8,7 @@ I took inspiration from [Zachgoll](https://www.codewars.com/users/zachgoll/autho
 
 ## 25 Beginner Problems
 I completed "Lesson 5 Practice Challenges #fullstackroadmap"
+
 Involved topics from learn1-ternary.js --> learn4-loops.js
 
 Covered:
