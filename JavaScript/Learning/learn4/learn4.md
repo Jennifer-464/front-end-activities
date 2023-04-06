@@ -1,4 +1,4 @@
-# Codewars JavaScript Challenges
+# Pixabay API Simulator
 
 Created a basic JSON image library and used jQuery with DOM manipulation to display the images
 
