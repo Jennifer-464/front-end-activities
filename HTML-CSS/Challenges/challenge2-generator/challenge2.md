@@ -8,3 +8,5 @@ Challenge: I had a hard time figuring out how to efficiently create an Accordion
 
 ### Website Walkthrough GIF
 <img src="http://g.recordit.co/3HitOm905e.gif" width="800px"><br>
+
+If GIF continues to not appear, click [here](http://g.recordit.co/3HitOm905e.gif) to see my solution in action!
