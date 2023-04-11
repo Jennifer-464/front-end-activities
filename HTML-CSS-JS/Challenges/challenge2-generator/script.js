@@ -59,7 +59,15 @@ generateRiddleBtn.addEventListener("click", () => {
 
 revealRiddleAnswer.addEventListener("click", () => {
     const displayDiv = document.getElementById("display-riddle");
+    const getRiddle = displayDiv.firstChild;
     const getAnswer = displayDiv.lastChild;
+    const isVisibleAnswer = getAnswer.style.visibility == "visible";
+    
+    if(getRiddle && isVisibleAnswer) {
+        alert("The answer is already revealed");
+        return;
+    }
+
     getAnswer.style.visibility = "visible";
 })
 
