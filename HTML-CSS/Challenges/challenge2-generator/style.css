@@ -1,0 +1,71 @@
+:root {
+    --black: #3f3f3f;
+    --beige: #F5F5DC;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+    color: var(--beige);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    margin: 20px;
+}
+
+/* LEFT SECTION */
+.output {
+    flex-grow: 2;
+    padding-right: 100px;
+    font-size: 18px;
+}
+
+#display-meme img {
+    max-width: 100%;
+    max-height: 50%;
+    border-radius: 10px;
+    border: 1px solid var(--beige);
+}
+
+.output div p {
+    color: rgb(184, 201, 212);
+    font-size: 16px;
+}
+
+/* RIGHT SECTION */
+.right-sidebar {
+    flex-grow: 1;
+    border-left: 1px dashed var(--beige);
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+
+.right-sidebar button {
+    background-color: var(--black);
+    border: 1px solid var(--beige);
+    border-radius: 10px;
+    color: var(--beige);
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px
+}
+
+#btn-riddle-answer {
+    border: none;
+    text-decoration: underline;
+}
+
+/* RIGHT SECTION HOVER EFFECT */
+.right-sidebar button:hover {
+    background-color: rgba(245, 245, 220, 0.1);
+}
+
+#btn-riddle-answer:hover {
+    color: white;
+    background-color: var(--black);
+}
