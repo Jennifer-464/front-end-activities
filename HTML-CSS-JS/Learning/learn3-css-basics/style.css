@@ -1,0 +1,47 @@
+/* selects all <p> descendants inside #main */
+#main p {
+    color: green;
+}
+
+/* selects all DIRECT <p> children in #main */
+#main > p {
+    color: blue;
+}
+
+/* To avoid if HTML structure will change */
+/* Adjacent sibling selector - selecting all <p> adjacent to <ul> */
+/* https://www.w3schools.com/css/css_combinators.asp */
+ul + p {
+    background-color: yellow;
+}
+
+
+
+/* selects only <p> with class="regular-text" */
+p[class="regular-text"] {
+    color: orange;
+}
+
+
+
+/* Determening which takes precedence */
+/* Specificity = # id + # class + # tag */
+/* 1st is more specific, therefore takes precedence */
+ol #first-factor { /* 1 + 0 + 1 = 2y*/
+    color: blue;
+}
+
+#first-factor { /* 1 + 0 + 0 = 1 */
+    color: green;
+}
+
+#counter li {
+    color: pink;
+}
+#counter .second {
+    color: red;
+}
+
+/* 101 id + tag
+110 id + class */
+/* Recheck on calculation */

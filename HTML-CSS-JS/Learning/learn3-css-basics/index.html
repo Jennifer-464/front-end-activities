@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=c, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> CSS Basics </title>
+</head>
+<body>
+    
+    <div id="main">
+        <ul>
+            <li> List item 1 </li>
+            <li> List item 2 </li>
+            <li> List item 3 </li>
+        </ul>
+        <p> first paragraph </p>
+        <p> second paragraph </p>
+        <p> third paragraph </p>
+        <div>
+            <p> fourth paragraph</p>
+        </div>
+
+        <ul>
+            <li> List item 1 </li>
+            <li> List item 2 </li>
+            <li> List item 3 </li>
+        </ul>
+        <p> fourth paragraph</p>
+        <p> fifth paragraph </p>
+        <p> sixth paragraph </p>
+    </div>
+
+    <p class="regular-text"> some text here </p>
+    <div class="regular-text"> some text here </div>
+    <p class="regular-text"> some text here </p>
+
+    <h2> 2 factors for determining CSS precedence </h2>
+    <ol>
+        <li id="first-factor"> Location of the CSS rule in the file </li>
+        <li> Specificity of the CSS rule </li> <!-- 1st) Inline/Tag    2) ID   3) Classes -->
+        <br> Calculate which is more specific <br>
+        <ol id="counter">
+            <li> Count number of ID Selectors </li>
+            <li class="second"> Count number of Class Selectors </li>
+            <li> Count number of Tag Selectors </li>
+        </ol>
+    </ol>
+
+</body>
+</html>
