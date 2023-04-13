@@ -7,6 +7,6 @@ The only thing I did adopt from [Zach's github](https://github.com/zachgoll/full
 Challenge: I had a hard time figuring out how to efficiently create an Accordion effect. I looked at Zach's github for inspiration and the code was a lot shorter than what I had in mind with removeChild(), so I took that approach instead.
 
 ### Website Walkthrough GIF
-<img src="http://g.recordit.co/alJPtBxzeb.gif" width="800px"><br>
+<img src="generator.gif" width="800px"><br>
 
 If GIF continues to not appear, click [here](http://g.recordit.co/3HitOm905e.gif) to see my solution in action!
