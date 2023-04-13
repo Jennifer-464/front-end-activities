@@ -1,13 +1,6 @@
 # Refresher on CSS
 
-Worked on challenges from [Frontend Mentor](https://www.frontendmentor.io/)
-
-[Single price grid component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) for desktop and mobile versions
-
-[Testimonials grid section](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7) to learn better into flexbox & grid
-
-[selectors](https://flukeout.github.io/)
-[flexbox](https://flexboxfroggy.com/)
+Refreshed on basic concepts about selectors and properties. It did help me understand deeper as to the different positions and how they get affected through the root or parent elements.
 
 ### Website Walkthrough GIF
-<img src="http://g.recordit.co/NmUhP3N75c.gif" width="800px"><br>
+<img src="output.png" width="800px"><br>
