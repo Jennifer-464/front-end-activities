@@ -9,6 +9,7 @@
 </head>
 <body>
     
+    <!-- CSS SELECTORS  -->
     <div id="main">
         <ul>
             <li> List item 1 </li>
@@ -36,17 +37,43 @@
     <div class="regular-text"> some text here </div>
     <p class="regular-text"> some text here </p>
 
+
+
+    <!-- DETERMINE SPECIFICITY -->
     <h2> 2 factors for determining CSS precedence </h2>
     <ol>
-        <li id="first-factor"> Location of the CSS rule in the file </li>
+        <li id="first-factor"> Priority based on CSS imports </li>
+        <ol>
+            <li> Inline Style (highest) </li>
+            <li> Internal Style (higher than external) </li>
+            <li> External Style - Location of the CSS rule in the file (from top to bottom) </li>
+        </ol>
+        <br>
+
         <li> Specificity of the CSS rule </li> <!-- 1st) Inline/Tag    2) ID   3) Classes -->
         <br> Calculate which is more specific <br>
         <ol id="counter">
-            <li> Count number of ID Selectors </li>
-            <li class="second"> Count number of Class Selectors </li>
-            <li> Count number of Tag Selectors </li>
+            <li> Count number of ID Selectors 1-0-0 </li>
+            <li class="second"> Count number of Class Selectors 0-1-0 </li>
+            <li> Count number of Tag Selectors 0-0-1 </li>
         </ol>
+        <br>
+
+        <li style="list-style-type:disc;"> !important take over everything (best NOT to use) </li>
     </ol>
+
+
+
+    <!-- BOX MODEL -->
+    <div class="boxes">
+        <div class="box rel-position">
+            <div class="abs-position"> Some text here </div>
+        </div>
+        <div class="box">Some text here</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
 
 </body>
 </html>

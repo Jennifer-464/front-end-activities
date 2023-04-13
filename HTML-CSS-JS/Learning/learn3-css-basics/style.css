@@ -12,7 +12,10 @@
 /* Adjacent sibling selector - selecting all <p> adjacent to <ul> */
 /* https://www.w3schools.com/css/css_combinators.asp */
 ul + p {
-    background-color: yellow;
+    /* color doesn't work as lines 2 & 7 take precedence */
+    /* except if important used, which overrides everything */
+    background-color: black;
+    color: white !important;
 }
 
 
@@ -23,25 +26,69 @@ p[class="regular-text"] {
 }
 
 
+/*
+Determine specificity for precedence
+https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+attributes ==> [type="radio"]
+pseudo-classes ==> :hover
+pseudo-elements ==> ::before
 
-/* Determening which takes precedence */
-/* Specificity = # id + # class + # tag */
-/* 1st is more specific, therefore takes precedence */
-ol #first-factor { /* 1 + 0 + 1 = 2y*/
+IDs    (#) - 100
+Class  (., att, p-c) - 010
+Type   (tag, p-e) - 001
+
+*/
+
+ol #first-factor { /* 101 */
     color: blue;
 }
 
-#first-factor { /* 1 + 0 + 0 = 1 */
+#first-factor { /* 100 */
     color: green;
+    /* overriden by line 39 */
 }
 
-#counter li {
-    color: pink;
-}
-#counter .second {
+
+#counter .second { /* 110 */
     color: red;
+    /* overrides line 54 */
 }
 
-/* 101 id + tag
-110 id + class */
-/* Recheck on calculation */
+#counter li { /* 101 */
+    color: plum;
+}
+
+
+
+
+/*
+BOX MODEL
+https://developer.mozilla.org/en-US/docs/Web/CSS/display
+*/
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 20px;
+    font-size: 2rem; /* 16 default * 2 = 32px*/
+}
+
+.rel-position {
+    position: relative;
+    width: 500px;
+}
+
+.abs-position {
+    position: absolute;
+    background-color: orange;
+    width: 100%;
+    font-size: 2em; /* .box font size * 2 = 64px */
+
+    /* if parent abs or rel, then will be based on parent */
+    /* else it will position to next parent with abs or rel */
+    /* if none, THEN it will position based on window vh & vw */
+    /* width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 50px; */
+}
