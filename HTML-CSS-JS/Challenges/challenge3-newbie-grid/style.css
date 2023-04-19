@@ -1,0 +1,21 @@
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --blue-gray: hsl(218, 22%, 67%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+
+#container {
+    width: 1440px; /* Desktop */
+    /* width: 375px; Mobile */
+    height: 200px;
+    border: 3px solid red;
+}
