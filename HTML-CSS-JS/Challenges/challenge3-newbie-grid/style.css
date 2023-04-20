@@ -134,3 +134,24 @@ button:hover {
     padding: 0;
     line-height: 24px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+
+    #container {
+        width: 375px;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    #subscription-blurb, #why-us {
+        display: block;
+        width: 100%;
+    }
+
+    #why-us {
+        padding-bottom: 10px;
+    } 
+}
+

@@ -23,8 +23,8 @@
 
 Users should be able to:
 - [X] Complete the desktop layout
-- [ ] Complete the mobile layout
-- [ ] View the optimal layout for the component depending on their device's screen size
+- [X] Complete the mobile layout
+- [X] View the optimal layout for the component depending on their device's screen size
 - [X] See a hover state on desktop for the Sign Up call-to-action
 
 
