@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="http://g.recordit.co/lSrI8uixYm.gif" width="600px"><br>
+<img src="http://g.recordit.co/lSrI8uixYm.gif" width="800px"><br>
 
 
 ### Links
