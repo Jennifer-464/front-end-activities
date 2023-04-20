@@ -4,7 +4,7 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screen Record](#screenshot)
+  - [Screen Record](#screen-record)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
