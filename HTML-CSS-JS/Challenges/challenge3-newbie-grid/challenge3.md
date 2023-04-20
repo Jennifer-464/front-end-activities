@@ -1,15 +1,5 @@
 # Frontend Mentor - Single price grid component solution
 
-Worked on a challenge from [Frontend Mentor](https://www.frontendmentor.io/) called [Single price grid component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) to practice Responsive design for desktop & mobile versions.
-
-Once a challenge is accepted in Frontend Mentor, they provide resources including a style guide and a README template.
-
-I'd recommend for those starting with understanding CSS selectors, to try the following [selector](https://flukeout.github.io/) link. It's a CSS Diner game!
-
-### Website Walkthrough GIF
-<img src="output.png" width="800px"><br>
-
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -24,96 +14,64 @@ I'd recommend for those starting with understanding CSS selectors, to try the fo
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### The challenge
 
+[Single price grid component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) is a challenge that helps users practice Responsive Design for desktop & mobile versions.
+
+
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
-- See a hover state on desktop for the Sign Up call-to-action
+[x] Complete the desktop layout
+[] Complete the mobile layout
+[] View the optimal layout for the component depending on their device's screen size
+[x] See a hover state on desktop for the Sign Up call-to-action
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+<img src="output.png" width="800px"><br>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://jennifer-464.github.io/front-end-activities/HTML-CSS-JS/Challenges/challenge3-newbie-grid/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- CSS display & position
+- Attempting without Flexbox or Grid
+- Desktop-first workflow
 
 ### What I learned
 
 I learned how to deploy with GitHub Pages to show my solution or ask for help in Frontend Mentor. I've deployed beforehand with Siteground, Heroku, and Google App Engine and this method was the easiest by far.
 
-To see how you can add code snippets, see below:
+I learned a quirky aspect of old CSS. Apparently for inline-block elements, if the property is given to 2 different divs and it doesn't align next to each other, it's due to an HTML file problem. In HTML, the 1st closing div tag and the 2nd open  div tag must be next to each other in 1 line. Basically deleting the white space (enter) between them. Who knew?
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+I attempted to complete some steps based on the knowledge I know. Once I was satisfied, I would then watch a bit of his process to understand his thinking and see if there was a better approach.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+At the moment I have completed the desktop version of this challenge. I will continue to work on the mobile version without the guidance of the YouTube video. Next challenge will include CSS flexbox & grid which I am very excited about. It was difficult without it.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Diner Game](https://flukeout.github.io/) - This game helped me understand all different levels of selectors. I would recommend this for anyone starting to learn them, but yet to grasp from just plain reading.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Jennifer](https://jennifer-464.github.io/front-end-activities/HTML-CSS-JS/Challenges/challenge3-newbie-grid/)
+- Frontend Mentor - [@Jennifer-464](https://www.frontendmentor.io/profile/Jennifer-464)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Still super grateful to freeCodeCamp for providing a 21 hour long YouTube video on [Frontend Web Development](https://youtu.be/zJSY8tbf_ys).
