@@ -4,7 +4,7 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screen Record](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -28,7 +28,7 @@ Users should be able to:
 - [X] See a hover state on desktop for the Sign Up call-to-action
 
 
-### Screenshot
+### Screen Record
 
 <img src="http://g.recordit.co/lSrI8uixYm.gif" width="800px"><br>
 
