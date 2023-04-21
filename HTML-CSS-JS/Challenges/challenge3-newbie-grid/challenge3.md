@@ -61,7 +61,7 @@ I attempted to complete some steps based on the knowledge I know. Once I was sat
 
 ### Continued development
 
-At the moment I have completed the desktop version of this challenge. I will continue to work on the mobile version without the guidance of the YouTube video. Next challenge will include CSS flexbox & grid which I am very excited about. It was difficult without it.
+I have completed the desktop & mobile versions of this challenge. I did complete most of the challenge with the guidance of the video. I wanted to see what the approach and thinking was from someone who is already experienced. I hope to take the same approaches as he did to attempt a challenge in Frontend Mentor. Next challenge will include CSS flexbox & grid which I am very excited about. It was difficult without it.
 
 
 ### Useful resources
