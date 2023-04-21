@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screen Record
 
-<img src="http://g.recordit.co/lSrI8uixYm.gif" width="800px"><br>
+<img src="https://recordit.co/OyL4kRxYVB" width="800px"><br>
 
 
 ### Links
