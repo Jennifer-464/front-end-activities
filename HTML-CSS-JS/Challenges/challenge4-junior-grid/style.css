@@ -1,0 +1,32 @@
+:root {
+    /* primary */
+    --moderate-violet: rgb(117, 65, 200);
+    --dark-grayish-blue: rgb(72, 85, 106);
+    --dark-blackish-blue: rgb(25, 33, 46);
+    --white: rgb(255, 255, 255);
+
+    /* neutral */
+    --light-gray: rgb(207, 207, 207);
+    --light-grayish-blue: rgb(236, 242, 248);
+
+    /* 
+    1. "Verified Graduate" has the same color as the person's name with 50% opacity
+    2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
+    */
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 13px;
+    font-weight: 500; /* 600 titles */
+    font-family: 'Barlow Semi Condensed', sans-serif; 
+}
+
+/* 
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
