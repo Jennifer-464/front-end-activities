@@ -1,3 +1,5 @@
+// Unrelated content, got curious about memory
+
 // localStorage.setItem("teams", JSON.stringify(rankedTeams));
 // localStorage.setItem("todo", "buy a watch");
 
