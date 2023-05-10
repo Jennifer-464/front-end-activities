@@ -28,10 +28,6 @@ body {
     flex-direction: column;
 }
 
-/* 
-- Mobile: 375px
-- Desktop: 1440px
-*/
 
 /* Testimonials */
 section:nth-child(1) {
@@ -152,6 +148,7 @@ section:nth-child(4) img {
 @media (min-width: 768px) {
     main {
         display: flex;
+        max-width: 1440px;
     }
 
     main .main-left {
