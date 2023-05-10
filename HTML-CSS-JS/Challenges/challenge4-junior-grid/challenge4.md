@@ -29,9 +29,9 @@ Users s hould be able to:
 
 ### Screenshot
 
-<img src="./images/output-mobile" width="500px"><br>
-<img src="./images/output-desktop" width="500px"><br>
-<img src="http://g.recordit.co/VnH5OX94Jc.gif" width="500px"><br>
+<img src="./images/output-mobile.png" width="500px"><br>
+<img src="./images/output-desktop.png" width="500px"><br>
+<img src="./images/recording.gif" width="500px"><br>
 
 
 ### Links
