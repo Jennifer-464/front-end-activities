@@ -22,12 +22,16 @@
 [Testimonials grid section](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7) is a challenge that helps users practice Responsive Design and Grid skills.
 
 Users s hould be able to:
-- [ ] View the optimal layout for the site depending on their device's screen size
+- [X] Complete the mobile layout
+- [X] Complete the desktop layout
+- [X] View the optimal layout for the site depending on their device's screen size
 
 
 ### Screenshot
 
-<img src="" width="500px"><br>
+<img src="./images/output-mobile" width="500px"><br>
+<img src="./images/output-desktop" width="500px"><br>
+<img src="http://g.recordit.co/VnH5OX94Jc.gif" width="500px"><br>
 
 
 ### Links
@@ -37,21 +41,28 @@ Users s hould be able to:
 
 
 ## My process
+I've been following a [Frontend Web Development Bootcamp Course](https://youtu.be/zJSY8tbf_ys?t=70846), but this time I wanted to attempt with minimal check ups on the video.
 
+Last time I completed [Single price grid component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) challenege, I was given feedback to study up on semantic HTML elements and CSS units. I did just that by paying close attention to the strucutre of my HTML semantic elements.
+
+Once I completed my HTML structure, I resetted my HTML document and tried getting the general layout. After being satisfied with the layout, I added the individual styling. I completed it by tweaking small changes to make it similar to the designs given.
 
 ### Built with
 
-- 
+- CSS display & position
+- CSS Flex & Grid
+- Media Queries
+- Mobile-first workflow
 
 
 ### What I learned
 
-I learned ...
+I improved on using semantic elements and keeping clean code throughout.
 
 
 ### Continued development
 
-At the moment...
+I plan on continuing to take on more challenges on Frontend Mentor. I'd also like to get started on designing my portfolio through Figma and using the skills learned to build it from scratch.
 
 
 ### Useful resources
@@ -69,4 +80,4 @@ At the moment...
 
 ## Acknowledgments
 
-Still super grateful to freeCodeCamp for providing a 21 hour long YouTube video on [Frontend Web Development](https://youtu.be/zJSY8tbf_ys).
+Thank you so much to freeCodeCamp for providing a 21 hour long YouTube video on [Frontend Web Development](https://youtu.be/zJSY8tbf_ys).
