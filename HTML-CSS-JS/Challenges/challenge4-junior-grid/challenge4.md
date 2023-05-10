@@ -62,7 +62,9 @@ I improved on using semantic elements and keeping clean code throughout.
 
 ### Continued development
 
-I plan on continuing to take on more challenges on Frontend Mentor. I'd also like to get started on designing my portfolio through Figma and using the skills learned to build it from scratch.
+I plan on continuing to take on more challenges on Frontend Mentor. I'd also like to get started on designing my portfolio through Figma and using the skills learned to build it from scratch. Animations is another topic I'd like to dive into once I have more solid foundational knowledge.
+
+For my programming skills with JavaScript, I will occasionally dive into as I've been doing, but expanding my knowledge with DOM and JQuery.
 
 
 ### Useful resources
