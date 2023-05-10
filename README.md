@@ -2,7 +2,7 @@
 
 Hey there :wave: 
 
-My name is Jennifer and I have basic to intermediate knowledge of HTML/CSS/JS. Recently, I have become highly interested in the front-end development and I am eager to learn a lot more about it through [Frontend Web Development Bootcamp Course](https://www.youtube.com/watch?v=zJSY8tbf_ys). My current skillset includes:
+My name is Jennifer and I have basic to intermediate knowledge of HTML/CSS/JS. Recently, I have become highly interested in the front-end development and I am eager to learn a lot more about it through [Frontend Web Development Bootcamp Course](https://www.youtube.com/watch?v=zJSY8tbf_ys). My current skillset as of March 2023 includes:
 
 - Understanding of HTML structuring & organizing with tags & attributes
 - Worked with CSS Flexbox & Grid
