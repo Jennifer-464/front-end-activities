@@ -1,6 +1,7 @@
 /**
  * Watched: https://www.youtube.com/watch?v=NCwa_xi0Uuc
  * Resource: https://www.freecodecamp.org/news/destructuring-patterns-javascript-arrays-and-objects/
+ * YT Vid: https://www.youtube.com/watch?v=cRHQNNcYf6s
  */
 
 
@@ -111,6 +112,7 @@ console.log(launch1.getPlanet);
 launch1.takeOff();
 console.log();
 
+/* Check folder "learn10" - covers modules
 class Person {
     constructor(name) {
         this.name = name;
@@ -132,18 +134,7 @@ const teacher = new Teacher("Mosh", "MSc");
 teacher.walk();
 teacher.teach();
 console.log();
-
-/**
- * arrow functions  --> access learn2-function.js
- * Array.map()      --> access learn5-callback.js
- * 
- * 
- * destructure array 
- * class - setter & getters
- * modules
- *                          export & import with default
- *                          promises - then & catch
- */
+*/
 
 
 

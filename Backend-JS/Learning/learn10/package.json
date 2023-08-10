@@ -1,0 +1,12 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "description": "Jennifer <jenniferlopezh0@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jennifer",
+  "license": "ISC",
+  "type": "module"
+}
