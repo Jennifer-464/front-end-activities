@@ -8,14 +8,14 @@ They usually hold a function as part of their argument / parameter
 // Arrow Function with forEach
 //                                v  &  v  are optional
 // array.forEach((currentValue, index, arr) => {
-    // do coding in here
+// do coding in here
 // });
 
 let arr = [1, 2, 3, 4];
 
 arr.forEach(num => console.log(num));
 
-arr.forEach((num, i) => {arr[i] = num * 2});
+arr.forEach((num, i) => { arr[i] = num * 2 });
 console.log(arr);
 console.log();
 
@@ -62,3 +62,10 @@ console.log(total); // 10
 
 total = values1to4.reduce((acc, val) => acc + val, 100);
 console.log(total); // acc = 100 + 10 = 110
+
+
+
+// Map + Arrow + Template Literals
+const color = ['red', 'green', 'blue'];
+const items = color.map(color => `<li> ${color} </li>`);
+console.log(items);

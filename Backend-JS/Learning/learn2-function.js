@@ -5,7 +5,7 @@ const myName = () => "Jenn";
 console.log(myName());
 
 
-const result = () => {return 20};
+const result = () => { return 20 };
 console.log(result());
 
 
@@ -18,7 +18,7 @@ console.log(sum(10, 20));
 
 
 const compare = (a, b) => {
-    if(a > b) {
+    if (a > b) {
         console.log(a + " is greater");
     }
     else if (a < b) {
@@ -30,3 +30,15 @@ const compare = (a, b) => {
 }
 compare(21, 21);
 compare(21, 22);
+console.log();
+
+
+const jobs = [
+    { id: 1, isActive: true },
+    { id: 2, isActive: true },
+    { id: 3, isActive: false }
+];
+const activeJobs = jobs.filter(function (job) { return job.isActive });
+console.log(activeJobs);
+const onlyActive = jobs.filter(job => job.isActive);
+console.log(onlyActive);
